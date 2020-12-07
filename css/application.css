@@ -237,7 +237,7 @@ form {
   background-color: #FB5A8E;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 812px) {
   .content {
     width: 90%;
   }
