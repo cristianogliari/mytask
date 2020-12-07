@@ -12,12 +12,6 @@
   border:0
 }
 
-@media screen and (max-width: 768px) {
-  .content {
-    width: 90%;
-  }
-}
-
 /* Formatação Body */
 
 body {
@@ -241,4 +235,10 @@ form {
 .btnDelete:hover {
   color: #FFFFFF;
   background-color: #FB5A8E;
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    width: 90%;
+  }
 }
