@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyTask - Organize suas tarefas de forma fácil e prática!</title>
+
+    <link rel="icon" href="./img/favicon.png" type="image/png">
+
+    <link rel="stylesheet" href="./css/application.css">
+    <script src="./js/application.js" defer></script>
+  </head>
+  <body>
+    <div class="content">
+      <header>
+        <div class="header-content-align">
+          <h1>MyTask</h1>
+          <p class="header-text">Seja bem-vindo(a) ao MyTask, aplicativo para controle de tarefas. Adicione, organize e exclua suas tarefas de forma prática.</p>
+        </div>
+      </header>
+      
+      <main>
+        <div class="main-content-align">
+          <form>
+            <input type="text" id="taskInput" class="add-task-input" placeholder="Adicione aqui sua tarefa">
+            <button id="btnAddTask" class="add-task-button" onclick="return false">+</button>
+          </form>
+          
+          <div class="main-content-divisory"></div>
+          
+          <div class="main-task-content">
+            <ul id="taskUL">
+            </ul>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

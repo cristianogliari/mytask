@@ -1,0 +1,244 @@
+/* Importando Fonte Roboto */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+/* Resetando Todos os Elementos */
+
+* {
+  padding:0;
+  margin:0;
+  vertical-align:baseline;
+  list-style:none;
+  border:0
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    width: 90%;
+  }
+}
+
+/* Formatação Body */
+
+body {
+  background-color: #FF97B8;
+  font-family: 'Roboto', sans-serif;
+  color: #666666;
+}
+
+/* Centralização do conteúdo principal */ 
+
+.content {
+  width: 50%;
+
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: #ffffff;
+  box-shadow: 1px 3px 10px 2px rgba(0, 0, 0, 0.14);
+  border-radius: 10px;
+}
+
+/* Header */
+
+header {
+  position: relative;
+  width: 70%;
+
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-content-align {
+  padding-top: 15%;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.header-text {
+  display: block;
+  width: 100%;
+
+  margin-top: 25px;
+
+  text-align: justify;
+
+  font-weight: 300;
+  font-size: 16px;
+}
+
+/* Main */
+
+main {
+  position: relative;
+  width: 70%;
+
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.add-task-input {
+  width: 80%;
+
+  outline: none;
+
+  margin-top: auto;
+  margin-right: 10px;
+  margin-bottom: auto;
+
+  padding-top: 12px;
+  padding-left: 20px;
+  padding-bottom: 12px;
+
+  box-sizing: border-box;
+  border-radius: 40px;
+
+  background: #FFFFFF;
+  border: 1px solid #C6C6C6;
+  color: #666666;
+}
+
+.add-task-button {
+  width: 40px;
+  height: 40px;
+
+  margin-top: auto;
+  margin-bottom: auto;
+
+  outline: none;
+  cursor: pointer;
+
+  font-size: 22px;
+  font-weight: 400;
+
+  background: #FB5A8E;
+  border-radius: 50%;
+  color: #ffffff;
+}
+
+.main-content-divisory {
+  height: 3px;
+
+  margin: 45px 0 25px 0;
+
+  background: linear-gradient(270deg, #4229C7 0%, rgba(128, 39, 176, 0.489583) 32.29%,
+                                                    rgba(255, 255, 255, 0) 100%), #FEA75A;
+}
+
+/* Lista */
+
+.main-task-content {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 25px;
+  margin-bottom: 75px;
+}
+
+.main-task-content ul {
+  display: block;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.main-task-content ul li {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0 20px 0;
+}
+
+.main-task-content ul li p {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  
+  word-wrap: break-word;
+  text-align: center;
+  
+  font-size: 18px;
+}
+
+.lineTrough {
+  text-decoration: line-through;
+}
+
+/* Checkbox */
+
+.checkbox {
+  width: 16px;
+  height: 16px;
+
+  margin-top: auto;
+  margin-bottom: auto;
+
+  cursor: pointer;
+
+  border: 1px solid #FB5A8E;
+  border-radius: 50%;
+}
+
+.checkbox:hover {
+  content: url(../img/check.svg);
+  color: #ffffff;
+  background-color: #FB5A8E;
+}
+
+.checked {
+  content: url(../img/check.svg);
+
+  width: 16px;
+  height: 16px;
+
+  margin-top: auto;
+  margin-bottom: auto;
+
+  cursor: pointer;
+
+  border: 1px solid #FB5A8E;
+  border-radius: 50%;
+
+  color: #ffffff;
+  background-color: #FB5A8E;
+}
+
+/* Delete Task Button */
+
+.btnDelete {
+  width: 20px;
+  height: 20px;
+
+  margin-top: auto;
+  margin-bottom: auto;
+ 
+  cursor: pointer;
+
+  font-size: 16px;
+
+  outline: none;
+
+  color: #FB5A8E;
+  background-color: #FFFFFF;
+}
+
+.btnDelete:hover {
+  color: #FFFFFF;
+  background-color: #FB5A8E;
+}
